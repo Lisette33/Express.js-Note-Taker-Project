@@ -42,7 +42,14 @@ app.post("/api/notes",(req,res)=>{
 // DELETE route
 app.delete("/api/notes/:id",(req,res)=>{
   console.log(req.params.id)
-  res.json("You are requesting with DELETE");
+  db.push(req.body)
+  fs.writeFile("./db/db.json",JSON.stringify(db),(error)=>{
+      if(error) {
+        console.log(error);
+        res.json(error);
+      }
+    res.json("You are requesting with DELETE");
+  });
 });
 
 app.listen(PORT, ()=>
