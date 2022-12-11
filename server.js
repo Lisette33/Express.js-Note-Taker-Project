@@ -15,13 +15,6 @@ app.use(express.static("public"));
 // HTML routes
 app.get("/notes",(req,res)=>{
   res.sendFile(path.join(__dirname,"public/notes.html"))
-  // fs.readFile("./public/notes.html",(error,data)=>{
-  //   if(error) {
-  //     console.log(error);
-  //     res.json(error);
-  //   }
-  // res.send(data);
-  // });
 });
 
 app.get("/",(req,res)=>{
