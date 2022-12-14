@@ -42,7 +42,8 @@ app.post("/api/notes",(req,res)=>{
 // DELETE route
 app.delete("/api/notes/:id",(req,res)=>{
   console.log(req.params.id)
-  db.push(req.body)
+  const noteIndex=db.findIndex(note=>note.id==req.params.id)
+  db.splice(noteIndex,1)
   fs.writeFile("./db/db.json",JSON.stringify(db),(error)=>{
       if(error) {
         console.log(error);
