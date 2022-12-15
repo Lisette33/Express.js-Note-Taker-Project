@@ -12,9 +12,6 @@ Lisette Morales
 ## Description
 The application is for users to write and save notes. In addition, the application uses Express.js to save and get data from the notes by the JSON file. Also, the application uses routes for responses if users do requests.
 
-## Acknowledgment
-I would like to thank those who provided their helpful guidance.
-
 ## Screenshot of Application
 ![OOP-Team-Profile-Generator](https://user-images.githubusercontent.com/113862182/207746819-5a0217a9-8f18-47d1-8631-11f51339307f.png)
 
@@ -55,6 +52,9 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+
+## Acknowledgment
+I would like to thank those who provided their helpful guidance.
 
 ## Licence
 MIT
