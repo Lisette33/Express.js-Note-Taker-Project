@@ -1,4 +1,3 @@
-<img width="468" alt="express-note-taker" src="https://user-images.githubusercontent.com/113862182/207746819-5a0217a9-8f18-47d1-8631-11f51339307f.png">
 ## Title
 Express.js Note Taker Project for Users
 
@@ -17,7 +16,7 @@ The application is for users to write and save notes. In addition, the applicati
 I would like to thank those who provided their helpful guidance.
 
 ## Screenshot of Application
-![OOP-Team-Profile-Generator]()
+![OOP-Team-Profile-Generator](https://user-images.githubusercontent.com/113862182/207746819-5a0217a9-8f18-47d1-8631-11f51339307f.png)
 
 ## Project Guidelines stated as:
 
