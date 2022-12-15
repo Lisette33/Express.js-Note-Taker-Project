@@ -1,3 +1,4 @@
+<img width="468" alt="express-note-taker" src="https://user-images.githubusercontent.com/113862182/207746819-5a0217a9-8f18-47d1-8631-11f51339307f.png">
 ## Title
 Express.js Note Taker Project for Users
 
